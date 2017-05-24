@@ -60,6 +60,5 @@ class Tree:
 
 if __name__ == "__main__":
     directory = sys.argv[1] if len(sys.argv) == 2 else os.getcwd()
-    print directory
     t = Tree(directory)
     print t.build()
